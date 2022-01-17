@@ -16,11 +16,16 @@ var filterTableBtn = d3.select("#filter-btn")
 // Get a reference to the table body
 var tbody = d3.select("tbody");
 
-// //Initialize uerDate variable
+// //Initialize queryDate variable
 // var queryDate = 'tbd';
 
-// // Handle click for the "Filter Table" Button
-// filterTableBtn.on("click", function() {
+// Handle click for the "Filter Table" Button
+filterTableBtn.on("click", function () {
+
+    console.log("Hi, KD's BUTTON was clicked");
+
+    console.log(d3.event.target);
+});
 
 //     // Prevent the page form refreshing 
 //     d3.event.preventDefault();
