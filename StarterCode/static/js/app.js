@@ -2,19 +2,19 @@ console.log("app.js loaded")
 
 console.log(data);
 
-// // from data.js
-// var tableData = data;
+// from data.js
+var tableData = data;
 
 
 // // Using the UFO dataset provided in the form of an array of JavaScript 
 // // objects, write code that appends a table to your web page and then 
 // // adds new rows of data for each UFO sighting.
 
-// // Grab the "Filter Table" button
-// var filterTableBtn = d3.select("#filter-btn")
+// Grab the "Filter Table" button
+var filterTableBtn = d3.select("#filter-btn")
 
-// // Select tbody
-// var tbody = d3.select("tbody");
+// Get a reference to the table body
+var tbody = d3.select("tbody");
 
 // //Initialize uerDate variable
 // var queryDate = 'tbd';
