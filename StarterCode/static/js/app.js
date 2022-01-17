@@ -26,7 +26,7 @@ filterTableBtn.on("click", function () {
 
     console.log(d3.event.target);
 });
-
+  
 //     // Prevent the page form refreshing 
 //     d3.event.preventDefault();
 
