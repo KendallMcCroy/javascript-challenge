@@ -1,5 +1,7 @@
 console.log("app.js loaded")
 
+console.log(data);
+
 // // from data.js
 // var tableData = data;
 
