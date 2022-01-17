@@ -18,4 +18,11 @@ var queryDaet = 'tbd';
 // Handle click for the "Filter Table" Button
 filterTableGtn.on("click", Function())
 
+// Prevent the page form refreshing 
+d3.event.preventDeault();
+
+// Select input element and get HTML node
+var inputField = d3.select("#datetime");
+
+
 // YOUR CODE HERE!
