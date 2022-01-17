@@ -7,22 +7,25 @@ var tableData = data;
 // adds new rows of data for each UFO sighting.
 
 // Grab the "Filter Table" button
-var filtertablebutton = d3.select("#filter-btn")
+var filter_table_button = d3.select("#filter-btn")
 
 // Select tbody
-var tbody =d3.select("tbody");
+var tbody = d3.select("tbody");
 
 //Initialize uerDate variable
-var queryDaet = 'tbd';
+var queryDate = 'tbd';
 
 // Handle click for the "Filter Table" Button
-filterTableGtn.on("click", Function())
+filter_table_button.on("click", Function())
 
 // Prevent the page form refreshing 
 d3.event.preventDeault();
 
 // Select input element and get HTML node
 var inputField = d3.select("#datetime");
+
+// Get the value property of the input element
+var que
 
 
 // YOUR CODE HERE!
